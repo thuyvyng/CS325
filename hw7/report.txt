@@ -1,0 +1,37 @@
+0. For the following graphs, decide whether they are
+   (1) directed or undirected, (2) dense or sparse, and (3) cyclic or acyclic:
+
+   (a) Facebook
+      Undirected, sparse, acyclic
+   (b) Twitter
+      Directed, sparse, cyclic
+   (c) a family
+      Undirected, dense, cyclic
+   (d) V=airports, E=direct_flights
+      directed, sparse, cyclic
+   (e) a mesh
+      undirected, dense, acyclic
+   (f) V=courses, E=prerequisites
+    directed, sparse, acyclic (i hope)
+   (g) a tree
+    directed, sparse, acyclic
+   (h) V=linux_software_packages, E=dependencies
+   (i) DP subproblems for 0-1 knapsack
+
+   Can you name a very big dense graph?
+
+Debriefing (required!): --------------------------
+
+0. What's your name?
+  Thuy-Vy Nguyen
+1. Approximately how many hours did you spend on this assignment
+  4 hours
+2. Would you rate it as easy, moderate, or difficult?
+  It was honeslty pretty easy. It shouldve only taken half an hour but
+  I messed up finding the highest value for a key in a dictionary and I hate myself.
+3. Did you work on it mostly alone, or mostly with other people?
+  Alone
+4. How deeply do you feel you understand the material it covers (0%-100%)?
+  90%
+5. Any other comments?
+  Good assignment, I liked it

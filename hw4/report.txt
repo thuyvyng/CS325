@@ -1,0 +1,62 @@
+0. There are two methods for building a heap from an unsorted array:
+   (1) insert each element into the heap  --- O(nlogn)
+   (2) heapify (top-down)
+    (a) Derive these time complexities.
+        For each n element, it takes complexity O(logn) to insert it at the right node.
+
+        1.Therefore nO(logn) = O(nlogn)
+        2. I had to watch a view that explained it but basically
+          the summation of n/2^h from h = 1 to h = logn can be reduced to n. So O(n).
+    (b) Show the time difference
+    (c) What about sorted or reverse sorted
+
+ 1. Given two lists A and B, each with n integers, return
+  a sorted list C that contains the smallest n elements from AxB:
+  Q: What are the time complexities of these algorithms?
+  a) O(n^2 * nlogn * n)
+  b) O(n^2 * n *n)
+  c) O(nk Logk)
+
+2. k-way mergesort
+  Q: What is the complexity? Write down the detailed analysis in report.txt.
+
+  O(nlogn).
+  Mergesort is a divide and conquer algorithm. K way mergesort is the same.
+  For k way merge sort I believe that the divison would be log base k not log base 2.
+  And for combining I believe that it would still be O(n).
+
+  At worst case scenario where k is 2 (log 2 is larger than log 2+) it would be O(nlogn).
+  So that would be (Onlog2k < Onlogkn) so O(nlogn)
+
+3. Find the k smallest numbers in a data stream of length n (k<<n),
+  using only O(k) space (the stream itself might be too big to fit in memory).
+  Q: What is your complexity? Write down the detailed analysis in report.txt.
+
+     Well first you have the complexity of the first k elements using heapify.
+
+     That's O(k). Then you have to insert the remaining elements.
+     Since insert for binary heap is O(logn) and there are k elements you would substitute
+     so that it would be O(logk) * (n-k) which would simplify to O(nlogk).
+
+
+
+Debriefing (required!): --------------------------
+0. What's your name?
+  Thuy-Vy Nguyen
+1. Approximately how many hours did you spend on this assignment?
+  The graded question took me twenty minutes. The rest of the assignment took longer, especially the report.
+2. Would you rate it as easy, moderate, or difficult?
+  Moderate
+3. Did you work on it mostly alone, or mostly with other people?
+  Note you are encouraged to discuss with your classmates,
+  but each students should submit his/her own code.
+  Usually I do it with friends but I did this one alone.
+4. How deeply do you feel you understand the material it covers (0%-100%)?
+  80%
+5. Which part(s) of the course you like the most so far?
+  This assignment was pretty fun, I thought it would be harder than it was.
+6. Which part(s) of the course you dislike the most so far?
+  Participation on slack. I just really hate it.
+  I'm really hoping the grading changes because if not
+  I'm going to do very badly in this class even though
+  I think I am understanding the material.

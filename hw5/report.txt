@@ -1,0 +1,23 @@
+1Q: What's the complexity?
+  O(n^2)
+
+2QA) O(n^2)
+  B) Catalan Number Series
+
+
+Debriefing (required!): --------------------------
+
+0. What's your name?
+  Thuy-Vy Nguyen
+1. Approximately how many hours did you spend on this assignment?
+  4 hours
+2. Would you rate it as easy, moderate, or difficult?
+  Moderate.
+3. Did you work on it mostly alone, or mostly with other people?
+  Alone
+4. How deeply do you feel you understand the material it covers (0%-100%)?
+  60%
+5. Which part(s) of the course you like the most so far?
+  The assignments and the online videos
+6. Which part(s) of the course you dislike the most so far?
+  Participation

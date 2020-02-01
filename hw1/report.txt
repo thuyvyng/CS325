@@ -1,0 +1,51 @@
+ThuyVy Nguyen
+CS325
+HW1
+
+report.txt ( Question 0 and the Debriefing)
+
+0. What's the best, worst, and average case complexities of quicksort?
+  Best - O(nlogn)
+    The best case scenario occurs when the pivot is in the middle (the left and right partitions are equal sizes/ balanced).
+    This creates a nicely balanced tree with a height of log(n) and each level takes O(n) to run, therefore it is O(nlogn)
+  Worst - O(n^2)
+    The worst case scenario for quick sort would occur when the items are already in order or reverse order, so that the pivot is always the largest/smallest item.
+    This causes the worst complexity because when the pivot is selected all of the items would either stay on the same side or switch to the other side, so there would not be two branches coming off the pivot.
+    So instead of having a sort of tree, it would instead be a triangle where all the items are pushed to the left or right side.
+    It is O(n^2) because essentially each number will be a pivot and have to loop through the remaining items in the set.
+  Average - O(nlogn)
+    In the average case, the pivot will not be in the worst case scenario (the largest/smallest) or the best (evenly in the middle).
+    Instead, in the average case the pivot will be in between these scenarios where the pivot divides the element in a 1 to 3 ratio.
+    That being that the left or right side outnumbers the other side by 3 to 1.
+    This creates a tree that leans heavily on one side where one branch is 3 times larger than its sibling.
+    While this complexity is not as efficient as the best case scenario it is still logarithmic so it would be O(nlogn), since it still continually gets divided.
+
+1. QuickSelect w/ Randomized pivot
+  Q:What's the best-case, worst-case, and average-case time complexities? Briefly explain.
+
+  For quickselect with a randomized pivot, the best, worst, and average time complexity is O(n).
+  We start with then n and then we have a randomized pivot.
+  Since we have a randomized pivot, we can say that this usually decreases the elements in half.
+  This would mean that the time complexity is (n + n/2 + n/4 + ...) which is about 2n, which is still considered O(n).
+
+2.Buggy Qsort Revisited
+
+  Q: What are the time complexities for the operations implemented?
+
+  Sort- It uses randomized quick sort so it would be O(nlogn).
+  Sorted- Is the infix traversal so its O(n)
+  Insert- O(logn)
+  Search-O(logn)
+
+  Debriefing (required!): --------------------------
+
+  1. Approximately how many hours did you spend on this assignment?
+    4 hours.
+  2. Would you rate it as easy, moderate, or difficult?
+    Moderate.
+  3. Did you work on it mostly alone, or mostly with other people?
+    Mostly alone but with some discussion at the end to make sure I fully completed the assignment.
+  4. How deeply do you feel you understand the material it covers (0%–100%)?
+    Like 70%, I had to look up stuff about complexities.
+  5. Any other comments?
+    Can we do more explanation about complexities.

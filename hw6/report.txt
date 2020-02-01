@@ -1,0 +1,31 @@
+1.
+a. greedy solution would be putting as much of the largest bang for your buck until your capacity is filled/
+b. example in class. items a) capacity 3 for value 2, and b) capacity 2 for 1. Since b is higher (2 >1.5)
+c. the subproblem is finding the greatest combo for a specific capacity
+d. t(n) = max( t(n-1), value + t(n-1))
+e.
+f. space)
+    time)
+2.a) a greedy solution would be finding the biggest bang, putting as much as you can and repeat for the highest bang until you cant.
+  b) example from above would work.
+  c) finding the greatest combo for a specific capacity.
+  d)
+  e)
+  f)
+
+Debriefing (required!): --------------------------
+
+0. What's your name?
+  ThuyVy Nguyen
+1. Approximately how many hours did you spend on this assignment?
+  too many
+2. Would you rate it as easy, moderate, or difficult?
+  difficult
+3. Did you work on it mostly alone, or mostly with other people?
+  with justin fortune :)
+4. How deeply do you feel you understand the material it covers (0%-100%)?
+  50%
+5. Which part(s) of the course you like the most so far?
+  i liked the sorting algorithms
+6. Which part(s) of the course you dislike the most so far?
+  this assignment

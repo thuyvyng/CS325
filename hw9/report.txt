@@ -1,0 +1,13 @@
+Debriefing (required!): --------------------------
+
+0. What's your name?
+  ThuyVy Nguyen
+1. Approximately how many hours did you spend on this assignment?
+  I finished the assignment in two hours but I was so stuck on 3 of the hidden cases.
+2. Would you rate it as easy, moderate, or difficult?
+  moderate
+3. Did you work on it mostly alone, or mostly with other people?
+  Alone
+4. How deeply do you feel you understand the material it covers (0%-100%)?
+  80%
+5. Any other comments?
